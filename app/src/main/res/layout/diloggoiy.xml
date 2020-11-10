@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00574B"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+    <TextView
+        android:id="@+id/txvThongBao"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Chơi Game"
+        android:textStyle="bold"
+        android:background="#fff"
+        android:textAllCaps="false"
+        android:textColor="#00574B"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txvNoiDung"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Chơi Game"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+</RelativeLayout>
+
+</LinearLayout>
